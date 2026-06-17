@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-slate-900 antialiased;
+}
+
+.btn-primary {
+  @apply bg-slate-900 text-white px-6 py-2 rounded-lg hover:bg-slate-800 transition-colors duration-200 flex items-center justify-center gap-2;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+}
